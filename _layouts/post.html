@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article class="posts">
-  <h1>{{ page.title }}</h1>
+  <h1>{{ page.post_title }}</h1>
 
   <div clsss="meta">
     <span class="author">
@@ -11,7 +11,7 @@ layout: default
     </span>
 
     <span class="date">
-      {{ page.date | date: "%Y-%m-%d" }}
+      {{ page.post_date | date: "%Y-%m-%d" }}
     </span>
 
     <ul class="tag">
