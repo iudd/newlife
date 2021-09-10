@@ -55,7 +55,15 @@
         <!-- Current item filename, which you can click to change -->
         <a class="ms-NavBar-link" href="#" id="renameFileCommand"></a>
       </li>
-
+<script type="text/javascript">
+  function launchOneDrivePicker(){
+    var odOptions = { /* ... specify the desired options ... */ };
+    OneDrive.open(odOptions);
+  }
+</script>
+<button onClick="launchOneDrivePicker()">Open from OneDrive</button>
+      
+      
       <li class="ms-NavBar-item ms-NavBar-item--right">
         <a class="ms-NavBar-link" href="https://github.com/rgregg/onedrive-texteditor-js">View Code</a>
       </li>
